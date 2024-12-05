@@ -1,7 +1,7 @@
 # Guía Básica para Usar la API de Facturación de Latinium con Postman
 
 ## Requisitos Previos
-- Postman instalado en tu computadora
+- Postman, Insomnia o cualquier otro tipo de aplicacion que permita consimur API's instalado en tu computadora
 - Credenciales proporcionadas por Elixir Software (username, password, tenantId) para el uso de la API
 
 ## Paso 1: Generar Token JWT
