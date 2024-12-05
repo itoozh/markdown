@@ -1,8 +1,8 @@
-﻿# Guía Básica para Usar la API de Facturación de Latinium con Postman
+# Guía Básica para Usar la API de Facturación de Latinium con Postman
 
 ## Requisitos Previos
 - Postman instalado en tu computadora
-- Credenciales proporcionadas por Elixir Software (username, password, tenantId)
+- Credenciales proporcionadas por Elixir Software (username, password, tenantId) para el uso de la API
 
 ## Paso 1: Generar Token JWT
 ### Configuración de la Solicitud
@@ -42,8 +42,8 @@
 
 ### Configuración de Headers
 - Agrega un header:
-    - Clave: `Authorization`
-    - Valor: `Bearer {token_generado_en_paso_1}`
+  - Clave: `Authorization`
+  - Valor: `Bearer {token_generado_en_paso_1}`
 
 ### Imagen 3: Headers para Solicitud de Factura
 ![Captura de pantalla mostrando](img/image3a.png)
@@ -124,6 +124,6 @@
 - Número de factura generado
 
 ## Recomendaciones Finales
-- Prueba primero con datos de ejemplo
+- Prueba primero con datos de ejemplo en una base de datos de ejemplo
 - Contacta con soporte de Elixir Software para dudas específicas
 - Mantén tus credenciales seguras
