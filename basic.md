@@ -127,7 +127,7 @@
 
 ### Imagen 6: Respuesta Erronea
 ![Captura de pantalla mostrando](/img/image6.png)
-- Código de respuesta 500
+- Código de respuesta 400
 - JSON de respuesta con `success: false`
 - Mensaje de error generado
 
