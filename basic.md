@@ -75,11 +75,11 @@
 - Cédula debe tener 10 dígitos
 - Asegúrate de tener todos los códigos correctos (proyecto, subproyecto, etc.)
 
-## Ejemplo Mínimo Funcional
+## Ejemplo Cuerpo Mínimo Funcional
 ```json
 {
   "cliente": {
-        "ruc": "1715282248",
+    "ruc": "1715282248",
     "nombre": "MONICA MOSCOSO",
     "direccion": "TADAY Y CAHUASQUI",
     "email": "erikportilla.pesantez@outlook.es",
@@ -96,7 +96,7 @@
     {
       "articulo": {
         "codigo": "API-ART-7",
-        "nombre": "asghags"
+        "nombre": "NUEVO PRODUCTO 2"
       },
       "cantidad": 4,
       "precio": 12,
@@ -106,9 +106,8 @@
     },
     {
       "articulo": {
-        "codigo": "API-ART-2"
-        ,
-        "nombre": "asghags"
+        "codigo": "API-ART-2",
+        "nombre": "NUEVO PRODUCTO 1"
       },
       "cantidad": 10,
       "precio": 15,
