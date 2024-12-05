@@ -8,7 +8,7 @@
 ### Configuración de la Solicitud
 - Abre Postman
 - Crea una nueva solicitud POST
-- URL: `https://sync.elixirsa.net:97/api/{tenantId}/Facturacion`
+- URL: `https://sync.elixirsa.net:97/api/{tenantId}/Auth/login`
 - Método: POST
 
 ### Imagen 1: Configuración de Solicitud de Token
