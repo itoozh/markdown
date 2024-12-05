@@ -9,6 +9,7 @@
 - Abre Postman
 - Crea una nueva solicitud POST
 - URL: `https://sync.elixirsa.net:97/api/{tenantId}/Auth/login`
+- URL Ejemplo: `https://sync.elixirsa.net:97/api/1/Auth/login`
 - Método: POST
 
 ### Imagen 1: Configuración de Solicitud de Token
@@ -38,6 +39,7 @@
 ### Configuración de la Solicitud
 - Crea una nueva solicitud POST
 - URL: `https://sync.elixirsa.net:97/api/{tenantId}/Facturacion`
+- URL Ejemplo: `https://sync.elixirsa.net:97/api/1/Facturacion`
 - Método: POST
 
 ### Configuración de Headers
@@ -122,6 +124,12 @@
 - Código de respuesta 200
 - JSON de respuesta con `success: true`
 - Número de factura generado
+
+### Imagen 6: Respuesta Erronea
+![Captura de pantalla mostrando](/img/image6.png)
+- Código de respuesta 500
+- JSON de respuesta con `success: false`
+- Mensaje de error generado
 
 ## Recomendaciones Finales
 - Prueba primero con datos de ejemplo en una base de datos de ejemplo
